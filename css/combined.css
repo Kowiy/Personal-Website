@@ -1,0 +1,304 @@
+/* Header styles */
+
+header {
+  color: #93A29B;
+  background-color: #60594D;
+  padding: 20px;
+  border-bottom: 2px solid #352f2f;
+  font-size;
+  text-align: center;
+}
+
+/* Header title */
+header h1 {
+  color: #0a3f19;
+  margin: 0;
+}
+
+/* Top navigation styles */
+nav.navtop {
+  margin-top: 10px;
+}
+
+nav.navtop button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 0 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+  color: #140852;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav.navtop button:hover {
+  color: #8f5454;
+}
+
+header {
+  color: #93A29B; /* Morning Blue or light gray */
+  background-color: #60594D; /*background of the header*/
+  border: 3px solid #222222; /* Black border */
+  padding: 10px; /* Padding around the header */
+  font-size: 16px;
+  /*font-size: calc(100vw / 25); /* Set the font size based on viewport width */
+}
+
+/* Footer styles */
+footer {
+  margin-top: 30px;
+  background-color: #60594D;
+  border: 1px solid #222222;
+  border-radius: 5px;
+  margin-bottom: 0;
+  padding: 20px;
+  text-align: right;
+}
+footer a :hover {
+  color: #8B635C; /* Rose Taupe when footer is hovered*/ 
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  background-color: #d1d9d9;
+}
+
+/* Section styles */
+section {
+  padding: 2em;
+  margin: 2em 0;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+/* Form styles */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+input[type="text"],
+textarea {
+  padding: 0.5em;
+  margin: 0.5em 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: white;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Search bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#searchInput {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  width: 70%;
+  font-size: 16px;
+}
+
+#searchButton {
+  background-color: #007bff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.search-icon {
+  font-size: 20px;
+}
+
+/* Filter and sort sections */
+.filter-sort {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#filterLevel,
+#sortLevel {
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 150px;
+}
+
+#sortLevel {
+  margin-left: 10px;
+}
+
+/* Course list */
+#courseList {
+  margin-top: 20px;
+}
+
+/* New CSS class for course images */
+.course-image {
+  float: right; 
+  margin: 0 0 10px 10px; 
+  width: 200px; 
+  height: auto; 
+}
+
+/* Clear floating elements to prevent layout issues */
+.course:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Individual course item */
+.course {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.course img {
+  max-width: 100%;
+  height: auto;
+}
+
+.course h3 {
+  margin-top: 10px;
+}
+
+.course p {
+  margin: 5px 0;
+}
+
+/* About page specific styles */
+main {
+  flex: 1;
+}
+
+/* Contact information styles */
+.contact-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-info a {
+  margin-right: 8%; /* Add equal spacing between contact links */
+}
+
+/* Other about page specific styles */
+.about-content {
+  color: #222222;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  background-color: #b7b281;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.jerseyimg {
+  float: right;
+  width: 30%;
+  margin-left: 40px;
+  border-radius: 10px;
+}
+
+.acimg3 {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+/* Index page specific styles */
+.intro-section {
+  position: relative;
+}
+
+.content-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#about-image {
+  position: 30px;
+}
+
+#ac3-image {
+  width: 20%;
+  height: 5%;
+  margin: 20px;
+}
+
+#profile-image {
+  max-width: 400px;
+  max-height: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  position: 30px;
+  top: 0;
+  right: 0;
+}
+
+.intro-content {
+  flex: 1;
+}
+
+/* Home icon and button styles */
+.home-ic {
+  position: absolute;
+  top: 20px;
+  left: 0;
+}
+
+.home-button {
+  display: inline-block;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Styles for the home icon */
+.home-icon {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+.home-icon:hover {
+  background-color: #7f7650;
+}
