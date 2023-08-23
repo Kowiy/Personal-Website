@@ -1,0 +1,58 @@
+/*font-family property is set to a font stack*/
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: underline;
+}
+#quoteText, #Author {
+  font-family: "Times New Roman", Times, serif;
+}
+#wholequote {
+  border: 2pt solid;
+  border-radius: 5pt;
+  background-color: rgb(48, 108, 82);
+  margin: 10px 1px;
+  padding: 20px;
+}
+#quoteText {
+  text-align: center;
+  color: #8ada80;
+  font-size: 18px;
+  padding: 10px 10px;
+}
+
+#Author {
+  text-align: right;
+  color:rgb(7, 7, 7);
+  font-style: italic;
+  
+}
+/*button element font-family property is set to a full font stack consisting of Arial, 
+Helvetica, and a generic sans-serif font, giving it a sans-serif font style*/
+button { /*move button to the center*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+}
+
+.quotebutton { 
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 3px 5px;
+  border-spacing: 2px;
+  border-radius: 10px;
+  border-color: #2541ae;
+  background-color: rgb(166, 183, 219);
+  color:#2541ae;
+  font-size: 14px;
+  cursor: pointer;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+}
+

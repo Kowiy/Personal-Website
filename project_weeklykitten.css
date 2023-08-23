@@ -1,0 +1,44 @@
+
+/* Styling for the textfields */
+.textfield {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+/* Styling for the label */
+label {
+  margin-bottom: 5px;
+}
+/* textfield size adjustment */
+.textfield input[type="text"],
+.textfield input[type="password"] {
+  height: 30px; 
+}
+
+
+/* Styling for the button "Sign-Up" */
+button[type="submit"] {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Styling for the button "Reset" */
+button[type="reset"] {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
